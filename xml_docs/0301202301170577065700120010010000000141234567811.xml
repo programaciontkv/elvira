@@ -1,0 +1,487 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+              <ns2:RespuestaAutorizacion xsi:type='ns2:autorizacion' xmlns:ns2='http://ec.gob.sri.ws.autorizacion' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+              <estado>AUTORIZADO</estado>
+              <numeroAutorizacion>0301202301170577065700120010010000000141234567811</numeroAutorizacion>
+              <fechaAutorizacion>2023-01-03T08:02:15-05:00</fechaAutorizacion>
+              <ambiente>PRODUCCIÓN</ambiente>
+              <comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>QUINGA QUINGA MARIA ELVIRA</razonSocial>
+<nombreComercial>VIVERES ELVIRA</nombreComercial>
+<ruc>1705770657001</ruc>
+<claveAcceso>0301202301170577065700120010010000000141234567811</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>001</ptoEmi>
+<secuencial>000000014</secuencial>
+<dirMatriz>AV. GRAL. RUMINAHUI E9-309 Y BARTOLOME DE LAS CASAS</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>03/01/2023</fechaEmision>
+<dirEstablecimiento>AV. GRAL. RUMIAHUI E9-309 Y BARTOLOM DE LAS CASAS</dirEstablecimiento>
+<obligadoContabilidad>NO</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>MARTHA LOYA</razonSocialComprador>
+<identificacionComprador>1705726048001</identificacionComprador>
+<totalSinImpuestos>617.45</totalSinImpuestos>
+<totalDescuento>0</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<baseImponible>520.85</baseImponible>
+<valor>0.00</valor>
+</totalImpuesto>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<baseImponible>96.6</baseImponible>
+<valor>11.59</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.00</propina>
+<importeTotal>629.04</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>01</formaPago>
+<total>629.04</total>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>014</codigoPrincipal>
+<descripcion>ACEITE GIRASOL 500MM</descripcion>
+<cantidad>2</cantidad>
+<precioUnitario>2.75</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>5.5</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>5.5</baseImponible>
+<valor>0</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>039</codigoPrincipal>
+<descripcion>MOTE PELADO</descripcion>
+<cantidad>200</cantidad>
+<precioUnitario>0.9</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>180</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>180</baseImponible>
+<valor>0</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>018</codigoPrincipal>
+<codigoAuxiliar>0.01</codigoAuxiliar>
+<descripcion>CLAVO DE OLOR FUNDITA</descripcion>
+<cantidad>10</cantidad>
+<precioUnitario>0.25</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>2.5</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>2.5</baseImponible>
+<valor>0</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>045</codigoPrincipal>
+<descripcion>SAL 2 KL</descripcion>
+<cantidad>30</cantidad>
+<precioUnitario>1</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>30</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>30</baseImponible>
+<valor>0</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>036</codigoPrincipal>
+<descripcion>MANTEQUILLA 125 GR</descripcion>
+<cantidad>20</cantidad>
+<precioUnitario>0.65</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>13</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>13</baseImponible>
+<valor>1.56</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>fam.TIP.124</codigoPrincipal>
+<descripcion>CAFE MINERVA SOBRE</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>1</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>1</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>1</baseImponible>
+<valor>0.12</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>030</codigoPrincipal>
+<descripcion>HARINA FLOR</descripcion>
+<cantidad>110</cantidad>
+<precioUnitario>0.5</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>55</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>55</baseImponible>
+<valor>0</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>031</codigoPrincipal>
+<descripcion>HUEVOS</descripcion>
+<cantidad>210</cantidad>
+<precioUnitario>0.16</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>33.6</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>33.6</baseImponible>
+<valor>0</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>040</codigoPrincipal>
+<descripcion>PANELAS REDONDAS</descripcion>
+<cantidad>60</cantidad>
+<precioUnitario>1.4</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>84</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>84</baseImponible>
+<valor>0</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>046</codigoPrincipal>
+<descripcion>SERVILLETA PAQUETE</descripcion>
+<cantidad>80</cantidad>
+<precioUnitario>0.6</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>48</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>48</baseImponible>
+<valor>5.76</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>048</codigoPrincipal>
+<descripcion>DEJA340 GR</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>1</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>1</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>1</baseImponible>
+<valor>0.12</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>055</codigoPrincipal>
+<descripcion>LUSTRE PARA PISO</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>0.85</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>0.85</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>0.85</baseImponible>
+<valor>0.1</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>017</codigoPrincipal>
+<descripcion>CANELA FUNDITA</descripcion>
+<cantidad>15</cantidad>
+<precioUnitario>0.25</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>3.75</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>3.75</baseImponible>
+<valor>0</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>005</codigoPrincipal>
+<descripcion>AZUCAR BLANCO</descripcion>
+<cantidad>50</cantidad>
+<precioUnitario>0.5</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>25</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>25</baseImponible>
+<valor>0</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>008</codigoPrincipal>
+<descripcion>AGUACATES</descripcion>
+<cantidad>120</cantidad>
+<precioUnitario>0.8</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>96</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>96</baseImponible>
+<valor>0</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>002</codigoPrincipal>
+<descripcion>ARROZ ABASTO</descripcion>
+<cantidad>10</cantidad>
+<precioUnitario>0.55</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>5.5</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>5.5</baseImponible>
+<valor>0</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>fam.TIP.112</codigoPrincipal>
+<descripcion>WISKY SOMETHING ESPECIAL</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>26.5</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>26.5</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>26.5</baseImponible>
+<valor>3.18</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>fam.TIP.118</codigoPrincipal>
+<descripcion>LUSTRE PLATEADO</descripcion>
+<cantidad>8</cantidad>
+<precioUnitario>0.75</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>6</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>6</baseImponible>
+<valor>0.72</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>077</codigoPrincipal>
+<descripcion>MASCARILLA DESECHABLE</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>0.25</precioUnitario>
+<descuento>0</descuento>
+<precioTotalSinImpuesto>0.25</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12</tarifa>
+<baseImponible>0.25</baseImponible>
+<valor>0.03</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="Direccion">AV. GRAL RUMINAHUI Y BARTOLOME DE LAS CASAS</campoAdicional>
+<campoAdicional nombre="Telefono">022875173</campoAdicional>
+<campoAdicional nombre="Email">lostresguabos@gmail.com</campoAdicional>
+<campoAdicional nombre="Observaciones"> CONTRIBUYENTE REGIMEN RIMPE </campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature717198">
+<ds:SignedInfo Id="Signature-SignedInfo600692">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID259216" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature717198-SignedProperties618197">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>BDBF+GSi6RTA8Hk8FhfxaZf1Gj8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1262830">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>WKxJuqnn8MJzlAA8/rsXNzC4w8c=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-477996" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>ud46QmtLswTSXVCnNYnRvuX//jQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue899430">
+njaTWpj7+npyGsxGOhezv0ttB1+0NyMDrcFkV95gwW5BPfYDFrvevvPAHvBbxfjWZwXYaHFD355d
+vzLdmYzs1uVaiTN5NoLkbtkts92datvdRJUxeTqX2xuIVM6Ap3QkTHT8ZuLB+VtXsRq2G2fr0fMF
+urJlKp55/NKCtpzCUZGm3ONnig0S+n1P1GKkjIQ0yCVBLB/8njMDLAJaNY3vPgQg/3eDkcK/yOTT
+xsxDIWpriA9PyeOnULpxWXqdMO6c4221SEl6XDhIZP4SgZ1ELnDjNkojXZvl5cREu4WceBYqOt4F
+7Qqr+xyWAUz31IkauuWS9ZKpgn3sdR5raj1fGg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1262830">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIL3jCCCcagAwIBAgIEek3hPDANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMjA5MzAwMDE0NDhaFw0yMzA5MzAwMDE0NDhaMIGaMSMw
+IQYDVQQDDBpNQVJJQSBFTFZJUkEgUVVJTkdBIFFVSU5HQTEVMBMGA1UEBRMMMjkwOTIyMTkyNDQ5
+MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAKIQAdN6kL8tPjpCX8zr+Ii9h/lurUld4qS9s8JYjn0+sk6AJvb8wZBOItPI
+wi9N8IFZB67KzZQGKmS8IUZoI+23IeUiWVsYsSS17FjbP1y+vrjKMsJd/LxuU+KYpuCce+1Te1m9
+Pypyu7PAOyEbu7h6y4wemY87wRwZ7/3+q0nGGtEnfwEdA3p8Y9tXTxW0mXBPXF5QUbeQgunJ4HvR
+Ml2RtRr6mkvZFmNfFGkvWu5nNQ3UlgOV0bMK9y3llv+Wxp5EGpFBRw730UgQBuSNYTxl1IyjnEWP
+3B1Ho3yBouwIFNWtRQ5qw8CJRXlhepC0bnNhco6vbHU9ivnH7SHFsxECAwEAAaOCBykwggclMAwG
+A1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8wWQYIKwYBBQUHAQEE
+TTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2Ev
+cHVibGljd2ViL3N0YXR1cy9vY3NwMIHPBgNVHS4EgccwgcQwgcGggb6ggbuGgbhsZGFwOi8vbGRh
+cHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04g
+U1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZP
+Uk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/ZGVsdGFSZXZvY2F0aW9uTGlzdD9i
+YXNlMCIGA1UdEQQbMBmBF2VsdmlyYS5xdWluZ2FAZ21haWwuY29tMIIBBgYDVR0gBIH+MIH7MFoG
+CisGAQQBgqZyAgcwTDBKBggrBgEFBQcCAjA+HjwAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAZABl
+ACAAUABlAHIAcwBvAG4AYQAgAE4AYQB0AHUAcgBhAGwwgZwGCisGAQQBgqZyAgEwgY0wgYoGCCsG
+AQUFBwIBFn5odHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQvZG93bmxv
+YWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9saXRpY2FzIGRlIENlcnRpZmljYWRv
+IFBlcnNvbmEgTmF0dXJhbC5wZGYwggKiBgNVHR8EggKZMIIClTCB5aBBoD+GPWh0dHA6Ly9vY3Nw
+Z3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3CigZ+kgZww
+gZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkg
+REFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwgceggcSggcGGgb5sZGFw
+Oi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJRklD
+QUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBE
+RSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/Y2VydGlmaWNhdGVSZXZv
+Y2F0aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3Vy
+aXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZp
+c3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRB
+LE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERB
+VEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFLK4FRtjEzIWvnlqS30IHb+FKXfWMCsGA1UdEAQkMCKA
+DzIwMjIwOTMwMDAxNDQ4WoEPMjAyMzA5MzAwMDE0NDhaMAsGA1UdDwQEAwIF4DAaBgorBgEEAYKm
+cgMBBAwMCjE3MDU3NzA2NTcwFQYKKwYBBAGCpnIDCQQHDAVRVUlUTzARBgorBgEEAYKmcgMiBAMM
+AS4wQwYKKwYBBAGCpnIDBwQ1DDNBViBHRU5FUkFMIFJVTUlOQUhVSSBFOTMwOSBZIEJBUlRPTE9N
+RSBERSBMQVMgQ0FTQVMwHAYKKwYBBAGCpnIDAgQODAxNQVJJQSBFTFZJUkEwHwYKKwYBBAGCpnID
+IAQRDA8wMDIwMDEwMDA0MzMyODEwEQYKKwYBBAGCpnIDIwQDDAEuMBMGCisGAQQBgqZyAyEEBQwD
+UEZYMBcGCisGAQQBgqZyAwwECQwHRUNVQURPUjAWBgorBgEEAYKmcgMDBAgMBlFVSU5HQTARBgor
+BgEEAYKmcgMeBAMMAS4wHQYKKwYBBAGCpnIDCwQPDA0xNzA1NzcwNjU3MDAxMBEGCisGAQQBgqZy
+Ax0EAwwBLjAWBgorBgEEAYKmcgMEBAgMBlFVSU5HQTAaBgorBgEEAYKmcgMIBAwMCjA5NjgyMzM0
+MTgwDQYJKoZIhvcNAQELBQADggIBADcfYKk6txTaOr508Zxxrn+U8wxAGhN184ubdFQRRebciI7n
+OLrjuzeU5fiPoBz2IFVBu5x/D03iG+Cl6usVgfZFR16TGJwOkSV+zsoCd1LJAdfOTXjZMyczVjxI
+PW68FukSykB6nmGVvjFc2hHnk8ZFezCvTZwxqfKB+5Uz4jkjJHq8rK+j63uCeik1HVDxxJA5AGK4
+fB4iFyhEDOzMtxa8eOtlgJAn9TRK8QvDi2JHv+NX7AkY8SxD2QVs5/700SL955gKLVg9BEeyVNJv
+20jiuMgjrd3f8r+czgTXny77yhzgbSe9vmyvTdXtetR/4tGSAgIKSzpGjUdVy1koVzAFzrmBdrVe
+G/0Lg6qeyml44YVjvrWAJNeTL5w1ooN0CT8Q9Ca8MggLQpIaUF1QBfXkFBpn5D0UlwsUorZx0XwA
+6qkpmZ/fbrHqxVq4j6j1bHi3taTqeWVrOK8I7DWEwzbG0W8E943MnBcFHLUELJBpvpjeZ4kXoYfQ
+PEv0KWzP269R1a67nMR8Enj9Dz0oHgcc8Kl7rn9TA49SdSUI7zFCwd9kumMuCAypDQ/fAEEk1LAM
+aCSSWgeq5oRo1eVKwp4dHkH3MhShmqpA+aQ07Hl2UZgR1m7J0rq36yMR+5m6NeEMhPIbOkxAf0jv
+sRQ/VbiFclL4GRh11ZBg7kfI06cV
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ohAB03qQvy0+OkJfzOv4iL2H+W6tSV3ipL2zwliOfT6yToAm9vzBkE4i08jCL03wgVkHrsrNlAYq
+ZLwhRmgj7bch5SJZWxixJLXsWNs/XL6+uMoywl38vG5T4pim4Jx77VN7Wb0/KnK7s8A7IRu7uHrL
+jB6ZjzvBHBnv/f6rScYa0Sd/AR0Denxj21dPFbSZcE9cXlBRt5CC6cnge9EyXZG1GvqaS9kWY18U
+aS9a7mc1DdSWA5XRswr3LeWW/5bGnkQakUFHDvfRSBAG5I1hPGXUjKOcRY/cHUejfIGi7AgU1a1F
+DmrDwIlFeWF6kLRuc2Fyjq9sdT2K+cftIcWzEQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature717198-Object770561"><etsi:QualifyingProperties Target="#Signature717198"><etsi:SignedProperties Id="Signature717198-SignedProperties618197"><etsi:SignedSignatureProperties><etsi:SigningTime>2023-01-03T08:02:11-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>wvVTQ7FLc0wiFRnk4Yxdb/94ekw=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>2051924284</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-477996"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+              <mensajes/>
+              </ns2:RespuestaAutorizacion>
